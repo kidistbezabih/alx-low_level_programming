@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
-*    excercise puts
+/**
+* excercise puts
 */
 int main(void)
 {
