@@ -7,11 +7,11 @@
 */
 int main(void)
 {
-int n;
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
 char ch;
+srand(time(0));
+
+
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 printf("%c", ch);
