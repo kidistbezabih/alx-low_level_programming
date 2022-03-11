@@ -2,11 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* more headers goes there */
-
-/* description for main */
-
-/* betty style doc for function main goes there */
+/*
+* main - description for main
+* Return (0)
+*/
 int main(void)
 {
 int n;
