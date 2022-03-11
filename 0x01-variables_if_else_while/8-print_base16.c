@@ -12,16 +12,16 @@ int j;
 i = 48;
 j = 97;
 
-while(i < 58)
+while (i < 58)
 {
 putchar(i);
-i ++;
+i++;
 }
 
 while(j < 103)
 {
 putchar(j);
-j ++;
+j++;
 }
 putchar('\n');
 return (0);
