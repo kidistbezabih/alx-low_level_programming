@@ -14,7 +14,7 @@ srand(time(0));
 
 for (ch = 'a'; ch <= 'z'; ch++)
 {
-printf("%c", ch);
+putchar(ch);
 }
 
 for (ch = 'A'; ch <= 'Z'; ch++)
