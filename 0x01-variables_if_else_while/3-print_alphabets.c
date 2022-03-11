@@ -11,12 +11,13 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-for (char ch = 'a'; ch <= 'z'; ch++)
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
 {
 printf("%c", ch);
 }
 
-for (char ch = 'A'; ch <= 'Z'; ch++)
+for (ch = 'A'; ch <= 'Z'; ch++)
 {
 printf("%c", ch);
 }
