@@ -7,17 +7,15 @@
 */
 int main(void)
 {
-int i;
+int i = 48;
 
-for (i = 48; i < 10; i++)
+while (i < 58)
 {
-putchar("%d", i);
-if (i < 9)
-{
-putchar
+putchar(i);
+i++;
 }
-}
-
 putchar('\n');
+
 return (0);
+
 }
