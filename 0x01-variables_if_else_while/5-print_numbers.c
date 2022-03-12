@@ -11,7 +11,7 @@ int i;
 
 for (i = 48; i < 10; i++)
 {
-putchar("%d", i);
+putchar(i);
 if (i < 9)
 {
 putchar
