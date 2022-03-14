@@ -16,8 +16,8 @@ for (k = j + 1; k <= 9; k++)
 {
 
 printf("%d%d%d", i, j, k);
-c = c +1;
-if (c <119)
+c = c + 1;
+if (c < 120)
 {
 printf("%c", ',');
 printf("%c", ' ');
