@@ -15,4 +15,5 @@ for (k = j+1; k <= 9; k++)
 printf("%d%d%d\n", i, j, k)
 }
 }
+retutn (0);
 }
