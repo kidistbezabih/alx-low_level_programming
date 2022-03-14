@@ -3,7 +3,7 @@
  *main- description
  *Return:0
  */
-int main()
+int main(void)
 {
 int i, j, k, c;
 c = 0;
