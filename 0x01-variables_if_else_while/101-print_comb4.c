@@ -15,5 +15,6 @@ for (k = j+1; k <= 9; k++)
 printf("%d%d%d", i, j, k);
 }
 }
+}
 return (0);
 }
