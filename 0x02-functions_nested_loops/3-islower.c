@@ -4,7 +4,7 @@
 *  @c:integer to be tested
 *  Return: 1 or 0
 */
-int _islower(int c)
+int _islower(int m)
 {
-return (c >= 97 && c <= 122);
+return (m >= 97 && m <= 122);
 }

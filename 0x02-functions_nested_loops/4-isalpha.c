@@ -7,9 +7,9 @@
  * Return: Always 0.
  */
 
-int _isalpha(int c)
+int _isalpha(int m)
 {
-if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+if ((m >= 65 && m <= 90) || (m >= 97 && m <= 122))
 {
 return (1);
 }
