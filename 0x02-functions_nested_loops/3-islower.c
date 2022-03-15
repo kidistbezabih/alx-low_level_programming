@@ -1,37 +1,20 @@
-#include "stdio.h"
-#include <ctype.h>
-
+#include "holberton.h"
 /**
- * main - check the code.
- *_islower function
- * Return: Always 0.
+ * _islower - returns 1 if c is lowercase, 0 otherwise
+ * @c: integer to be tested
+ * Return: 1 or 0
  */
-
- int _islower(int x)
+int _islower(int c)
 {
-int r;
-r = islower(x);
-
-if (r == 0)
-{
-printf("%d", r);
+	return (c >= 97 && c <= 122);
 }
-else
+#include "holberton.h"
+/**
+ * _islower - returns 1 if c is lowercase, 0 otherwise
+ *  integer to be tested
+ * Return: 1 or 0
+ */
+int _islower(int c)
 {
-int z;
-z = 1;
-printf("%d", z);
-
-}
-return (r);
-}
-
-int main(void)
-{
-int r;
-r = _islower('H');
-r = _islower('o');
-r = _islower(108);
-putchar('\n');
-return (0);
+	return (c >= 97 && c <= 122);
 }
