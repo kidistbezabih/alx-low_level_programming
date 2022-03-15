@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _abs - the function
- *@c: parameter
+ *@m: parameter
  *If :return 1.
  * Return: Always 0.
  */
