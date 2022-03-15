@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _abs - returns absolute value of n
- * @n: integer to be tested
- * Return: abs(n)
+ * _abs - the function
+ *@c: parameter
+ *If :return 1.
+ * Return: Always 0.
  */
 int _abs(int m)
 {
