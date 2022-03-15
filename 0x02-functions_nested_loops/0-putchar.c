@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
-*main - description 
-*return:0
+*main - description
+*Return: always 0.
 */
 
-int main()
+int main(void)
 {
 char x[] = "_putchar";
 printf("%s", x);
