@@ -3,7 +3,7 @@
 
 /**
  * main - check the code.
- *
+ *_islower function
  * Return: Always 0.
  */
 
@@ -25,6 +25,7 @@ printf("%d", z);
 }
 return (r);
 }
+
 int main(void)
 {
 int r;
