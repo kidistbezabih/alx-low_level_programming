@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha the function
+ * _isalpha - the function
  *@c: parameter
+ *If :return 1.
  * Return: Always 0.
  */
 
