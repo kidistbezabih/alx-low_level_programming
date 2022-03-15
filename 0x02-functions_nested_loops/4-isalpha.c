@@ -1,12 +1,17 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
+ * _isalpha the function
+ *@c: parameter
  * Return: Always 0.
  */
 int _isalpha(int c)
 {
-return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9'));
+nt _isalpha(int c)
+{
+if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+{
+return (1);
 }
-
+return (0);
+}
