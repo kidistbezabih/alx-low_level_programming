@@ -1,14 +1,15 @@
 #include "main.h"
 /**
- * _abs - the function
- *@m: parameter
- *If :return 1.
- * Return: Always 0.
+ * print_last_digit - the function
+ *@c: parameter
+ * Return: Always c.
  */
 int print_last_digit(int c)
 {
 while ((c % 10) > 10)
-    c = c % 10;
+    {
+        c = c % 10;
+    }
 
 return (c);
 }
