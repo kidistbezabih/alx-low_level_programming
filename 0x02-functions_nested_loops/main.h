@@ -25,7 +25,8 @@ int print_sign(int);
 /* 6-abs.c */
 int _abs(int);
 
-
+/* print last digit*/
+int print_last_digit(int);
 
 
 /* 9-times_table.c */
