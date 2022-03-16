@@ -4,7 +4,7 @@
  * _isalpha - the function
  *@m: parameter
  *If :return 1.
- * Return: Always 0.
+ * Return: Always 0. 
  */
 
 int _isign(int m)
