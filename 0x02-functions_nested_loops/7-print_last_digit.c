@@ -7,6 +7,11 @@
  */
 int print_last_digit(int c)
 {
-_putchar(c);
-return (0);
+int x;
+x = 0;
+int n = floor(log10(abs(the_integer))) + 1;
+while (x < n+1)
+{
+c = c % 10;
 }
+return (c);
