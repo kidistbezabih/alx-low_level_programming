@@ -18,4 +18,5 @@ else
 {
 c = 0;
 }
+return (c);
 }
