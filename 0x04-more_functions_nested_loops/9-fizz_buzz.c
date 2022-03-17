@@ -2,6 +2,7 @@
 
 /**
 *main-function
+*Return:0
 */
 int main(void)
 {
@@ -15,28 +16,28 @@ while (i < 100)
 {
 if (((i + 1) % 3) == 0 )
 {
-    for (j = 0; f[j] != '\0'; j++)
-    {
-    _putchar(f[j]);
-    }
+for (j = 0; f[j] != '\0'; j++)
+{
+_putchar(f[j]);
+}
 }
 
 
 else if (((i + 1) % 5) == 0 )
 {
-    for (j = 0; b[j] != '\0'; j++)
-    {
-    _putchar(b[j]);
-    }
+for (j = 0; b[j] != '\0'; j++)
+{
+_putchar(b[j]);
+}
 }
 
 {
 else if((((i + 1) % 3) == 0 ) && (((i + 1) % 5) == 0 ))
 {
-    for (j = 0; fb[j] != '\0'; j++)
-    {
-    _putchar(fb[j]);
-    }
+for (j = 0; fb[j] != '\0'; j++)
+{
+_putchar(fb[j]);
+}
 }
 else
 {
@@ -45,3 +46,4 @@ _putchar(i);
 }
 }
 return (0);
+}
