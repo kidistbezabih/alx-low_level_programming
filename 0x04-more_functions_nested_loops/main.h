@@ -10,4 +10,6 @@ int _isdigit(int c);
 /* multiply two numbers */
 int mul(int a, int b);
 
+/* print number */
+void print_numbers(void);
 #endif
