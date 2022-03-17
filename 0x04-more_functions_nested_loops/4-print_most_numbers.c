@@ -11,12 +11,12 @@ int i;
 i = 0;
 while (i < 10)
 {
-if ((i == 2) || (i ==4))
+if ((i == 2) || (i == 4))
 {
 continue;
 }
-
-else{
+else
+{
 _putchar(i + 48);
 i++;
 }
