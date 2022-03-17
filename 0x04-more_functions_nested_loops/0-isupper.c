@@ -3,8 +3,8 @@
 /**
 *_isupper-function
 *@c: int
-*@x: is int 
-*Return:int 
+*@x: is int
+*Return:int
 */
 
 int _isupper(int c)
