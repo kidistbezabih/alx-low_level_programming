@@ -2,6 +2,7 @@
 
 /**
 *more_numbers-function
+*Return: void
 */
 
 void more_numbers(void)
@@ -13,7 +14,7 @@ int j;
 p = "01234567891011121314";
 for (j = 0; j < 10; j++)
 {
-for (i = 0; p[i] != '\0'; i++)
+for (i = 0; i < 20; i++)
 {
 _putchar(p[i]);
 }
