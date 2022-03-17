@@ -2,8 +2,8 @@
 
 /**
 *print_diagonal-function
-*@n: diagonal
-*Return: void
+*@n: argument
+*Return: 0
 */
 
 void print_square(int size)
@@ -18,4 +18,5 @@ _putchar('#');
 }
 _putchar('\n');
 }
+return (0);
 }
