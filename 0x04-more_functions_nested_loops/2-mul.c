@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_isdigit-function
+*mul-function
 *@a: int
 *@b: int
 *Return: a*b
