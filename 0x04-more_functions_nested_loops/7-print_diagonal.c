@@ -3,6 +3,7 @@
 /**
 *print_diagonal-function
 *@n: lenght of line
+*Return: void
 */
 
 void print_diagonal(int n)
