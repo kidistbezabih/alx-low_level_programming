@@ -7,6 +7,7 @@ int _isupper(int c);
 /* isdigit */
 int _isdigit(int c);
 
-/* multiply teo numbers */
+/* multiply two numbers */
 int mul(int a, int b);
+
 #endif
