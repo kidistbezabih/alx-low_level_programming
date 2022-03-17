@@ -19,4 +19,6 @@ void print_numbers(void);
 /* print most numbers*/
 void print_most_numbers(void);
 
+/* ptint line*/
+void print_line(int n);
 #endif
