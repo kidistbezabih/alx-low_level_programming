@@ -3,6 +3,7 @@
 /**
 *print_diagonal-function
 *@n: diagonal
+*Return: void
 */
 
 void print_square(int size)
