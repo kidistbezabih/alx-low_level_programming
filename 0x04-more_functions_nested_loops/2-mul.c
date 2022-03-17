@@ -2,11 +2,12 @@
 
 /**
 *_isdigit-function
+*@a:int
 *@b: int
-*Return:c
+*Return:a*b
 */
 
 int mul(int a, int b)
 {
-return()
+return(a * b);
 }
