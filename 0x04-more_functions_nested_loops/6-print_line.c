@@ -2,7 +2,7 @@
 
 /**
 *print_line-function
-@n: int
+*@n: length of line
 *Return: void
 */
 
