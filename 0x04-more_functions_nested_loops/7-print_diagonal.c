@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
-*print_diagonal-function
-*@n: diagonal
+*print_diagonal-function pring diagonal
+*@n: lenght of line
 */
 
 void print_diagonal(int n)
 {
-int i, j;
+int i;
+int j;
 
 if (n > 0)
 {
