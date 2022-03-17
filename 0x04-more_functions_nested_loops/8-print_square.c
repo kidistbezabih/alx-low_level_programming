@@ -2,7 +2,7 @@
 
 /**
 *print_diagonal-function
-*@n: argument
+*@size: argument
 *Return: 0
 */
 
