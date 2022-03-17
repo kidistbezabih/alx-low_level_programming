@@ -2,7 +2,6 @@
 
 /**
 *print_numbers-function
-*@i: int
 *Return: void
 */
 
