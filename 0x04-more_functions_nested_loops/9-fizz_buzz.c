@@ -1,49 +1,27 @@
 #include <stdio.h>
 
 /**
-*main-function
-*Return:0
-*/
+ * main - prints "Fizz" for numbers divisible by 3,
+ * prints "Buzz" for numbers divisible by 5,
+ * prints "FizzBuzz" for numbers divisible by 3 and 5
+ * for numbers 1-100
+ * Return: 0;
+ */
 int main(void)
 {
-int i, j; 
-i = 0;
+	int i;
 
-char f[] = "Fizz";
-char b[] = "Buzz";
-char fb[] = "FizzBuzz";
-while (i < 100)
-{
-if (((i + 1) % 3) == 0)
-{
-for (j = 0; f[j] != '\0'; j++)
-{
-_putchar(f[j]);
-}
-}
-
-
-else if (((i + 1) % 5) == 0)
-{
-for (j = 0; b[j] != '\0'; j++)
-{
-_putchar(b[j]);
-}
-}
-
-{
-else if((((i + 1) % 3) == 0) && (((i + 1) % 5) == 0))
-{
-for (j = 0; fb[j] != '\0'; j++)
-{
-_putchar(fb[j]);
-}
-}
-else
-{
-_putchar(i);
-}
-}
-}
-return (0);
+	for (i = 1; i <= 99; i++)
+	{
+		if (i % 15 == 0)
+			printf("FizzBuzz ");
+		else if (i % 3 == 0)
+			printf("Fizz ");
+		else if (i % 5 == 0)
+			printf("Buzz ");
+		else
+			printf("%i ", i);
+	}
+	printf("Buzz\n");
+	return (0);
 }
