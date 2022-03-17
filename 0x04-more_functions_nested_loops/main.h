@@ -4,4 +4,10 @@
 /*  isupper  */
 int _isupper(int c);
 
+
+/* isdigit */
+int _isdigit(int c);
+
+
+}
 #endif
