@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-*print_most_numbers-function
+*more_numbers-function
 */
 
-vvoid print_line(int n)
+void more_numbers(void)
 {
 char p*;
 int i;
