@@ -21,4 +21,7 @@ void print_most_numbers(void);
 
 /* ptint line*/
 void print_line(int n);
+
+/* print diagonal */
+void print_diagonal(int n);
 #endif
