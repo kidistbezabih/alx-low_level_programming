@@ -2,6 +2,7 @@
 
 /**
 *print_numbers-function
+*_putchar-function
 *@i: int
 *Return: void
 */

@@ -16,4 +16,5 @@ int mul(int a, int b);
 
 /* print number */
 void print_numbers(void);
+
 #endif
