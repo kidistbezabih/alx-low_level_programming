@@ -3,7 +3,6 @@
 /**
 *_isupper-function
 *@c: int
-*@x: is int
 *Return:int
 */
 
