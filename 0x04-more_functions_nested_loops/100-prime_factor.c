@@ -21,7 +21,7 @@ break;
 n /= i;
 }
 i++;
-}
+} 
 
 printf("%lu\n", n);
 return (0);
