@@ -10,6 +10,9 @@ int _isupper(int c);
 /* isdigit */
 int _isdigit(int c);
 
+/* 5 */
+void more_numbers(void);
+
 /* multiply two numbers */
 int mul(int a, int b);
 
