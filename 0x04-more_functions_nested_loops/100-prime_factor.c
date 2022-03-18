@@ -1,22 +1,28 @@
+#include "main.h"
 #include <stdio.h>
 
-void primeFactors(int n)
+/**
+ * main - program that prints out the highest prime
+ * Return: 0
+ */
+int main(void)
 {
-    int c=2;
-    while(n>1)
-    {
-        if(n%c==0){
-        cout<<c<<" ";
-        n/=c;
-        }
-        else c++;
-    }
+int i = 2;
+long n = 612852475143;
+
+while (i < n)
+{
+while (n % i == 0)
+{
+if (n == i)
+{
+break;
 }
- 
-/* Driver code */
-int main()
-{
-    int n = 612852475143;
-    primeFactors(n);
-    return 0;
+n /= i;
+}
+i++;
+}
+
+printf("%lu\n", n);
+return (0);
 }
