@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*reset_to_98-function
+*swap_int-function
 *@a: int argument
 *@b: in targument
 *Return: void
@@ -14,3 +14,4 @@ temp = *a;
 *a = *b;
 *b = temp;
 }
+
