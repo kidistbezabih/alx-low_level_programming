@@ -21,8 +21,7 @@ int i;
 for(i =0; i< len/2; i++)
 {
 temp = s[i];
-char *_strcpy();
-_strcpy(char *dest, char *src);
+char *_strcpy(char *dest, char *src);
 s[i] = s[len-1-i];
 s[len-1-i] = temp;
 }
