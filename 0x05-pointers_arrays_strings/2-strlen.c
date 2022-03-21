@@ -11,7 +11,7 @@ int i;
 int c;
 for (i = 0; s[i] != '\0'; i++)
 {
-c = c + 1;
+c = i + 1;
 }
 return (c);
 }
