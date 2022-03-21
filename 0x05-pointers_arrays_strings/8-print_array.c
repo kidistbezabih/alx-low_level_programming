@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *powB - raises the number base to power power
+ *print_array- raises the number base to power power
  *@a : the base
  *@n : the power
  *Return: void
