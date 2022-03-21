@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * *_strcpy - copies the string pointed to by src,
@@ -9,10 +9,10 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	char *ptr = dest;
+char *ptr = dest;
 
-	while (*src)
-		*dest++ = *src++;
-	*dest = 0;
-	return (ptr);
+while (*src)
+*dest++ = *src++;
+*dest = 0;
+return (ptr);
 }
