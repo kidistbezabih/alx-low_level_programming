@@ -17,5 +17,5 @@ printf("%d", a[i]);
 if(i < n-1)
 printf(", ");
 }
-printf("%c",\n);
+printf("%c",'\n');
 }
