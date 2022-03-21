@@ -6,7 +6,9 @@
 *Return: void
 */
 
-int reset_to_98(int *n)
+void reset_to_98(int *n)
 {
-return (*n);
+int *p;
+p = &n;
+*p = 98;
 }
