@@ -24,7 +24,7 @@ int i;
 for (i = 0; i<len; i++)
 {
 _putchar(str[i]);
-i+=1;
+i += 1;
 }
 
 }
