@@ -43,5 +43,5 @@ num =  num * 10 + mapint(*s);
 }
 s++;
 }
-return (sign * num);
+return (sign *num);
 }
