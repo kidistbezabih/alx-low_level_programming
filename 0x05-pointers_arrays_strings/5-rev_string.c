@@ -5,10 +5,10 @@
  * Return: length of string
  */
 int _strlen(char *s)
-{   
+{
 int i;
 i = 0;
-while(s[i])
+while (s[i])
 i++;
 return (i);
 }
@@ -28,5 +28,4 @@ for (i = len - 1; i >= 0; i--)
 {
 _putchar(s[i]);
 }
-_putchar('\n');
 }
