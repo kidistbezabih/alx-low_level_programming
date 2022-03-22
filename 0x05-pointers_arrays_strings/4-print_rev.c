@@ -33,7 +33,7 @@ len = _strlen(char *s);
 
 for(i = len; i > 0; i--)
 {
-_putchar(str[i]);
+_putchar(s[i]);
 }
 _putchar('\n');
 }
