@@ -20,7 +20,7 @@ return (length);
 }
 
 /**
-*peint_rev-function
+*print_rev-function
 *@s: char argument
 *Return: void
 */
@@ -31,7 +31,7 @@ int i;
 int len;
 len = _strlen(s);
 
-for(i = len - 1; i >= 0; i--)
+for (i = len - 1; i >= 0; i--)
 {
 _putchar(s[i]);
 }
