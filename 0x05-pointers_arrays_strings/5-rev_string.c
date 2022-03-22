@@ -16,16 +16,13 @@ return (i);
 
 void rev_string(char *s)
 {
-int len;
-len = _strlen(*s);
-char temp;
 int i;
-for(i =0; i < len / 2; i++)
+int len;
+len = _strlen(s);
+
+for (i = len - 1; i >= 0; i--)
 {
-temp = s[i];
-char *_strcpy(char *dest, char *src);
-s[i] = s[len - 1 - i];
-s[len - 1 - i] = temp;
+_putchar(s[i]);
 }
 _putchar('\n');
 }
