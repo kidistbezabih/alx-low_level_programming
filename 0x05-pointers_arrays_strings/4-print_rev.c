@@ -29,7 +29,7 @@ void print_rev(char *s)
 {
 int i;
 int len;
-len = _strlen(char *s);
+len = _strlen(s);
 
 for(i = len; i > 0; i--)
 {
