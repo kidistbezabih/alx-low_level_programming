@@ -13,7 +13,11 @@ i++;
 return (i);
 }
 
-
+/**
+ *rev_string- returns the length of a string
+ * @s: string
+ * Return: length of string
+ */
 void rev_string(char *s)
 {
 int i;
