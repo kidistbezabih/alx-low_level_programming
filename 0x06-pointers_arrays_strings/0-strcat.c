@@ -6,19 +6,20 @@
 *Return: character
 */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 int i, j;
 i = 0;
 j = 0;
 while (i != '\0')
 {
-putchar(dest);
+_putchar(dest);
 i++;
 }
 while (j != '\0')
 {
-putchar(src);
+_putchar(src);
 j++
 }
+_putchar(\n);
 }
