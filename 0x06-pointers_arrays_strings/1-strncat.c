@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
 *swap_int-function
 *@dest: argument
@@ -22,7 +22,7 @@ int destlen = _strlen(dest);
 int i;
 
 for (i =0; i < n && src[i] != '\0'; i++)
-dest[destlen +i] = src[i];
+dest[destlen + i] = src[i];
 
 dest[destlen + 1] = '\0';
 return (dest); 
