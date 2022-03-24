@@ -3,7 +3,6 @@
 *swap_int-function
 *@dest: argument
 *@src: argument
-*@n: argument
 *Return: character
 */
 
