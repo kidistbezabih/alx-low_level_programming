@@ -1,6 +1,6 @@
 #include <main.h>
 /**
-*swap_int-function
+*_strcat-function
 *@dest: argument
 *@src: argument
 *Return: character
