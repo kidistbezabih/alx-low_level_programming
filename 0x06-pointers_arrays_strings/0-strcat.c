@@ -5,23 +5,15 @@
 *@src: argument
 *Return: character
 */
-int _strlen(char *s)
-{
-int i;
-i = 0;
-while (s[i])
-i++;
-return (i);
-}
 
 char *_strcat(char *dest, char *src)
 {
 
-while (*src != '\0')
-{
-*dest  += *src;
-src++;
-
+int i, j;
+for (i = 0; dest[i] != '\0'; i++);
+for (j = 0; src[j] != '\0'; j++) {
+dest[i + j] = src[j];
 }
+ dest[i + j] = '\0';
 return (dest);
 }
