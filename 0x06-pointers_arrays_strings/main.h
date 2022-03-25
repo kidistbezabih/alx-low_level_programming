@@ -25,5 +25,5 @@ char *string_toupper(char *);
 char *cap_string(char *);
 
 /* 7 */
-char *leet(char *);
+char *leet(char *ch);
 #endif
