@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*reverse_array-function
+*cap_string-function
 *@str: argument
 *Return: char
 */
@@ -14,6 +14,7 @@ while (*str != '\0')
 {
 if (i == 0)
 {
+if (*str >= 97 && *tr <= 122)
 *str -= 32;
 }
 if (*str == ' ')
@@ -21,6 +22,7 @@ if (*str == ' ')
 i = 0;
 }
 str++;
+i++;
 }
 return (s);
 }
