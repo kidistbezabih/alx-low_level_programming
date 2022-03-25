@@ -1,27 +1,20 @@
 #include "main.h"
-/**
-*_strncpy-function
-*@dest: argument
-*@src: argument
-*@n: argument
-*Return: character
-*/
 
+/**
+ * _strncpy - function
+ * @dest: argument
+ * @src: arg
+ * @n: arg
+ * Return:string
+ */
 char *_strncpy(char *dest, char *src, int n)
 {
-if (dest == NULL)
-{
-return (NULL);
-}
-
 char *ptr = dest;
 
 while (*src && n--)
-{
-*dest = *src;
-dest++;
-src++;
-}
-*dest = '\0';
+*dest++ = *src++;
+if (!*src)
+while (*dest && n--)
+*dest++ = 0;
 return (ptr);
 }
