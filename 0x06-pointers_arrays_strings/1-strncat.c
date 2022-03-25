@@ -1,5 +1,20 @@
 #include "main.h"
 /**
+*_strlen-function
+*@s: argument
+*Return: character
+*/
+
+int _strlen(char *s)
+{
+int i;
+i = 0;
+while (s[i])
+i++;
+return (i);
+}
+
+/**
 *_strncat-function
 *@dest: argument
 *@src: argument
@@ -9,13 +24,11 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-for (i = 0; i != '\0'; i++)
+char *ptr = dest + _strlen(dest);
+while (*src != '\0' && n--)
 {
-for (int j = 0; src != '\0' && j < n; j++)
-{
-dest[i + j] = src[j];
+*ptr++ = *src++;
 }
-dest[i + j] = '\0';
-}
+*ptr = '\0';
 return (dest);
 }
