@@ -1,40 +1,27 @@
 #include "main.h"
-
 /**
-*leet-function
-*@str: argument
-*Return: char
-*/
-char *leet(char *str)
+ * leet - encodes a string into 1337
+ * @ch: String
+ * Return: string that is encoded
+ */
+char *leet(char *ch)
 {
-char *ch = str;
-while (*str != '\0')
+char *cp = ch;
+char key[] = {'A', 'E', 'O', 'T', 'L'};
+int value[] = {4, 3, 0, 7, 1};
+unsigned int i;
+while (*ch)
 {
-if (*str == 'a' || *str == 'A')
+for (i = 0; i < sizeof(key) / sizeof(char); i++)
 {
-*str = 48 + 4;
+if (*ch == key[i] || *ch == key[i] + 32)
+{
+*ch = 48 + value[i];
 }
-else if (*str == 'E' || *str == 'e')
-{
-*str = 51;
 }
-else if (*str == 'o' || *str == 'O')
-{
-*str = 48;
+c++;
 }
-else if (*str == 't' || *str == 'T')
-{
-*str = 55;
-}
-else if (*str == 'l' || *str == 'L')
-{
-*str = 49;
-}
-else
-*str  = *str;
 
+return (cp);
 
-*str++;
-}
-return (ch);
 }
