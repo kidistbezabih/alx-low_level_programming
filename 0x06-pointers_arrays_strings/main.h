@@ -26,4 +26,7 @@ char *cap_string(char *str);
 
 /* 7 */
 char *leet(char *ch);
+
+/* 101 */
+void print_number(int n);
 #endif

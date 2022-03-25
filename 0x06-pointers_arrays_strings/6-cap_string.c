@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*cap_string-function
+*capstring-function
 *@str: argument
 *Return: char
 */
