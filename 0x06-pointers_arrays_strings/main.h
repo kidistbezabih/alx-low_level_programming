@@ -17,4 +17,10 @@ int _strcmp(char *s1, char *s2);
 
 /*  4 */
 void reverse_array(int *a, int n);
+
+/* 5 */
+char *string_toupper(char *);
+
+/* 6 */
+char *cap_string(char *);
 #endif
