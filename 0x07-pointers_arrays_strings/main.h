@@ -14,4 +14,10 @@ unsigned int _strspn(char *s, char *accept);
 
 /* 4 */
 char *_strpbrk(char *s, char *accept);
+
+
+
+
+/* 6 */
+void print_chessboard(char (*a)[8]);
 #endif
