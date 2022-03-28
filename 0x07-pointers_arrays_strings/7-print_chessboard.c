@@ -12,6 +12,7 @@ for (j = 0; j < sizeof(a)/sizeof(*a); j++)
 {
 for (i = 0; i < 8; i++)
 _putchar(a[j][i]);
-_putchar('\n');
 }
+_putchar('\n');
+
 }
