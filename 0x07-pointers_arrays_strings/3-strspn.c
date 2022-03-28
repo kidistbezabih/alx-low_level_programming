@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _strchr - locates a character in a string
  * @s: string to be searched
@@ -23,9 +22,9 @@ return (NULL);
 
 /**
  * _strspn- locates a character in a string
- * @accept: string to be searched
+ * @accept: string
  * @s: target char
- * Return: pointer to first occurrence of c or NULL if char not found
+ * Return: length of the string
  */
 
 int _strspn(char *s, char *accept)
