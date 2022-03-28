@@ -17,5 +17,9 @@ if (*s == c)
 return (s);
 }
 }
+if (!c)
+{
+return (s);
+}
 return (NULL);
 }
