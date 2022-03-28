@@ -13,7 +13,8 @@ char *p = s;
 
 while (n--)
 {
-*s++ = b;
+*s = b;
+s++;
 }
-return (s);
+return (p);
 }
