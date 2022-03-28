@@ -18,5 +18,5 @@ while (n)
 *d++ = *s++;
 n--;
 }
-return (dest);
+return (d);
 }
