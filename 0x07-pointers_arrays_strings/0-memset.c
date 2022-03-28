@@ -15,5 +15,5 @@ while (n--)
 {
 *s++ = b;
 }
-return (p);
+return (s);
 }
