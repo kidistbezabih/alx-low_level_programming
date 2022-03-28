@@ -23,4 +23,7 @@ char *_strpbrk(char *s, char *accept);
 
 /* 6 */
 void print_chessboard(char (*a)[8]);
+
+/* 7 */
+void print_diagsums(int *a, int size);
 #endif
