@@ -19,4 +19,5 @@ while (i < n)
 i++;
 p++;
 }
+return (s);
 }
