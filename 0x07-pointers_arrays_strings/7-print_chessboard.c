@@ -8,11 +8,11 @@ void print_chessboard(char (*a)[8])
 {
 int i, j;
 
-for (j = 0; j < sizeof(a)/sizeof(*a); j++)
+for (j = 0; j < 8 * 8; j++)
 {
-for (i = 0; i < 8; i++)
-_putchar(a[j][i]);
-}
+if(j % 8 == 0 && j != (8 * 8) - 1) {
 _putchar('\n');
-
+}
+_putchar(*(a + j));
+}
 }
