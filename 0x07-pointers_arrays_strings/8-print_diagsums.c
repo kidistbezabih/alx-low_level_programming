@@ -1,10 +1,9 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
  * print_diagsums- prints the chessboard
  * @a: pointer to chessboard
  * @size: pointer to chessboard
+ * Return: void
  */
 
 void print_diagsums(int *a, int size)
