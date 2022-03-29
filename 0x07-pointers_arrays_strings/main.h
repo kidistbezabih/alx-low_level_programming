@@ -26,4 +26,8 @@ void print_chessboard(char (*a)[8]);
 
 /* 7 */
 void print_diagsums(int *a, int size);
+
+/* 100 */
+void set_string(char **s, char *to);
+
 #endif
