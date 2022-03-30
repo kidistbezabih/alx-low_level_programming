@@ -13,4 +13,9 @@ void _print_rev_recursion(char *s);
 
 /* length of string */
 int _strlen_recursion(char *s);
+
+/* factorial */
+int factorial(int n);
+
+
 #endif
