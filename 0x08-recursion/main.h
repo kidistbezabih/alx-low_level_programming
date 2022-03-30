@@ -10,4 +10,7 @@ void _puts_recursion(char *s);
 
 /* print rev */
 void _print_rev_recursion(char *s);
+
+/* length of string */
+int _strlen_recursion(char *s);
 #endif
