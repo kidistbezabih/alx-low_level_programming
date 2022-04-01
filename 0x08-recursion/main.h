@@ -25,4 +25,7 @@ int _sqrt_recursion(int n);
 
 /* prime check */
 int is_prime_number(int n);
+
+/* palendrom */
+int is_palindrome(char *s);
 #endif
