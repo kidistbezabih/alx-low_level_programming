@@ -2,8 +2,8 @@
 
 /**
  * free_grid - Function
- * @grid: The 2D array 
- * @height: The height 
+ * @grid: The 2D array
+ * @height: The height
  *
  * Return: Nothing
  */
