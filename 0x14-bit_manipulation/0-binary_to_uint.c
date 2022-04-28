@@ -1,69 +1,29 @@
 #include "main.h"
-#include <stddef.h>
-
 
 /**
-*len- print lengt of string
-*@b: char argument
-*Return:  int
-*/
-int len(const char *b)
-{
-int l, i;
-i = 0;
-l = 0;
-while (b[i] != '\0')
-{
-l++;
-i++;
-}
-return (l);
-}
-
-/**
-*power - two the power of the size
-*@z: an argument
- * Return: Pointer to new space in memory, NULL if it fails
+ * binary_to_uint - converts a binary number to an unsigned int.
+ * @b: pointer to a string containing a binary number
+ *
+ * Return: unsigned int with decimal value of binsry number, or 0 if error
  */
-
-int power(int z)
-{
-int i, result;
-i = 0;
-result = 1;
-while (i < z)
-{
-result *= 2;
-i++;
-}
-return (result);
-}
-
-
-/**
-*binary_to_uint- change to binary
-*@b: char argument
-* Return: binary value , 0 if it fails
-*/
-
 unsigned int binary_to_uint(const char *b)
 {
-int ln, i, binval, size, s;
-binval = 0;
-i = 0;
-if (b == NULL)
-return (0);
-ln = len(b);
-while (*b != '\0')
-{
-if (*b != '0' && *b != '1')
-return (0);
+	int i;
+	unsigned int num;
 
-size = ln - 1 - i;
-s = ((int)(*b)) - 48;
-binval += (s *power(size));
-i++;
-*b++;
-}
-return (binval);
+	num = 0;
+	if (!b)
+		return (0);
+	for (i = 0; b[i] != '\0'; i++)
+	{
+		if (b[i] != '0' && b[i] != '1')
+			return (0);
+	}
+	for (i = 0; b[i] != '\0'; i++)
+	{
+		num <<= 1;
+		if (b[i] == '1')
+			num += 1;
+	}
+	return (num);
 }
