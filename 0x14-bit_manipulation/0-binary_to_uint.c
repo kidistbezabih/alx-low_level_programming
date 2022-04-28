@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stddef.h>
 
+
 /**
 *len- print lengt of string
 *@b: char argument
@@ -55,8 +56,9 @@ return (0);
 ln = len(b);
 while (*b != '\0')
 {
-if (*b > '9' || *b < '0')
+if (*b != '0' && *b != '1')
 return (0);
+
 size = ln - 1 - i;
 s = ((int)(*b)) - 48;
 binval += (s *power(size));
@@ -64,29 +66,4 @@ i++;
 *b++;
 }
 return (binval);
-}
-
-#include <stdio.h>
-#include "main.h"
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    unsigned int n;
-
-    n = binary_to_uint("1");
-    printf("%u\n", n);
-    n = binary_to_uint("101");
-    printf("%u\n", n);
-    n = binary_to_uint("1e01");
-    printf("%u\n", n);
-    n = binary_to_uint("1100010");
-    printf("%u\n", n);
-    n = binary_to_uint("0000000000000000000110010010");
-    printf("%u\n", n);
-    return (0);
 }
