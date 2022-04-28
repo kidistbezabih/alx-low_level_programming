@@ -49,6 +49,8 @@ unsigned int binary_to_uint(const char *b)
 int ln, i, binval, size, s;
 binval = 0;
 i = 0;
+if (b == NULL)
+return (0);
 ln = len(b);
 while (*b != '\0')
 {
